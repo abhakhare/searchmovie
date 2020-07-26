@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:elevation="8dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/movie_image"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"></ImageView>
+
+    <com.movie.abha.View.TextViewBoldDark
+        android:layout_toLeftOf="@+id/bookmark"
+        android:layout_margin="8dp"
+        android:id="@+id/name"
+        android:layout_toRightOf="@+id/movie_image"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Address"
+        android:maxLines="2"
+        android:textColor="#484848"
+        android:textSize="16dp"
+        app:edittextfont="NEXA LIGHT.OTF"
+        app:edittextfontHint="NEXA LIGHT.OTF" />
+
+
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:id="@+id/bookmark"
+            android:padding="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SearchMovies</string>
+    <string name="unamed_location">Unnamed Location</string>
+    <string name="api_key">AIzaSyBTysLwd_ytZSldUGNncrrHgajWOx6Sq1Y</string>
+    <string name="internet_issue">Please check internet</string>
+    <string name="please_select_different">Please enter different address</string>
+    <string name="default_notification_channel_id">my_channel_01</string>
+</resources>
